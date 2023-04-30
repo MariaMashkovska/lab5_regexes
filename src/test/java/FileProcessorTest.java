@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FileProcessorTest {
-    public static final String path = "D:\\folderFor5lab\\logo234";
+    private static final String path = "D:\\folderFor5lab\\logo234";
     private static final Pattern pattern = Pattern.compile("^logo.*\\d.*$");
 
     @Test
